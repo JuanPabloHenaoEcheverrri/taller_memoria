@@ -13,15 +13,15 @@
         \vspace*{1cm}
             
         \Huge
-        \textbf{Título del trabajo}
+        \textbf{Taller memorias del computador}
             
         \vspace{0.5cm}
         \LARGE
-        Subtítulo
+        
             
         \vspace{1.5cm}
             
-        \textbf{Nombres y Apellidos del autor}
+        \textbf{Juan Pablo Henao Echeverri}
             
         \vfill
             
@@ -39,7 +39,7 @@
 \tableofcontents
 
 \section{Introducción}
-Esta es la primera sección, podemos agregar algunos elementos adicionales y todo será escrito correctamente. Más aún, si una palabra es demasiado larga y tiene que ser truncada, babel tratará de truncarla correctamente dependiendo del idioma.
+Como estudiantes de un curso de programación es muy importante el crear buenas bases teoricas, ya que esta nos permiten conocer el funcionamiento interno de las memorias a la hora de ejecutar un programa. La idea de este taller es hacer conciencia del uso de la memoria al crear programas, ya que al hacer un uso adecuado de estas hace que el programa sea mucho mas óptimo. 
 
 \section{Contenido} \label{contenido}
 
@@ -66,20 +66,22 @@ Para entender como funciona una memoria, es importante usar la siguiente analog�
     Es importante recalcar que el archivo nunca se elimina del disco duro, simplemente se crea una copia en este, y despues es reemplazado por lo que haya en la memoria. \cite{taller}
 
 \subsection{¿Que hace que una memoria sea mas rápida que otra? ¿Por qué esto es importante?. }
+La memoria mas lenta es el disco duro, y su poca eficiencia se debe a la forma en la que se accede a la información, ya que este debe hacer girar sus discos para encontrarla. \\
 
+Despues está la memoria virtual, la cual es un poco mas rápida que el disco duro, ya que esta hace parte del disco duro, pero mantiene la información que no se está usando en un espacio, el cual al acceder a esta información, es mas rapido que el disco duro. \\
 
+Despues de esto se tiene la memoria RAM  que es mucho mas rapida que la memoria virtual y el disco duro debido a la forma como se almacena su información, ya que se hace en unas celdas donde almacenan los bits de información de forma aleatoria y esto hace que acceder a la información sea mucho mas directo.\\
 
+La memoria mas rapida que se tiene es la caché, ya que esta tiene la misma frecuencia que el microprocesador, y almacena su información en tres niveles dependiendo de la frecuencia que se accede a ella. En el nivel 1 es el mas rapido, ya que este se encuentra en el núcleo del microprocesador, el nivel 2 es mas lento que el anterior pero su capacidad es mayor y tambien se encuentra en el nucleo del microprocesador; y el nivel 3 es el mas lento pero el que mas capacidad tiene, y este nivel de la memoria caché es mas rapido que la memoria Ram.\\
 
-
-
-
-
-
-
-
-
+Esto es importante para conocer las jerarquias de la memoria, y que dependiendo del peso de un programa este se ejecuta mas rápido o mas lento, ya que de este depende en que memoria el microprocesador decide trabajar. Al ver lo anterior expuesto se ve la importancia que es el hacer programas eficientes que no derrochen espacio en la memoria.  
 
 \section{Conclusión} \label{conclulsion}
+\begin{itemize}
+    \item  Entre mas capacidad tiene la memoria mas lento es su funcionamiento.
+    \item La arquitectura de los computadores muestra de como se puede equilibrar dos variables importantes como son la eficiencia y el costo.
+    \item El procesador escoje la memoria que va a usar, dependien del tamaño del archivo.
+\end{itemize}
 
 \bibliographystyle{IEEEtran}
 \bibliography{references}
