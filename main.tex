@@ -38,49 +38,46 @@
 
 \tableofcontents
 
-\section{Sección introductoria}
+\section{Introducción}
 Esta es la primera sección, podemos agregar algunos elementos adicionales y todo será escrito correctamente. Más aún, si una palabra es demasiado larga y tiene que ser truncada, babel tratará de truncarla correctamente dependiendo del idioma.
 
-\section{Sección de contenido} \label{contenido}
+\section{Contenido} \label{contenido}
 
 \subsection{Memoria de computador}
 
-Una memorias cumplen un papel muy importante en un computador y su funcionamiento, ya que es el el dispositivio donde se alamacena temporalmente toda la información con la que trabajan los microprocesadores para procesarla y devolver los resultados que los usuarios requieren.   
-En terminos dela arquitectura de una memoria de computador se puede denominar como un conjunto de celdas junto con los circuitos asociados que se necesitan para ingresar y sacar información de almacenamiento. Una palabra de memoria es un grupo de 1 y 0, que pueder representar un número un codico de istrucción, uno o mas caracteres alfanúmericos, o cualquier otra información en código binario. \cite{ingenieu}
+Una memorias cumplen un papel muy importante en un computador y su funcionamiento, ya que es el el dispositivio donde se alamacena temporalmente toda la información con la que trabajan los microprocesadores para procesarla y devolver los resultados que los usuarios requieren. \cite{taller} \\
+
+En terminos dela arquitectura de una memoria de computador se puede denominar como un conjunto de celdas junto con los circuitos asociados que se necesitan para ingresar y sacar información de almacenamiento. Una palabra de memoria es un grupo de 1 y 0, que pueder representar un número un codico de istrucción, uno o mas caracteres alfanúmericos, o cualquier otra información en código binario. \cite{ingenieu} \\
+
+\subsection{Tipo de memorias que conozco}
+\textbf{Memoria Rom:} Tambien conocida como memoria de solo lectura, es una memoria la cual almacena información pero esta no puede ser destruida ni reprogramable. \\
+
+\textbf{Memoria Ram:} A difrenecia de la memoria ROM, la información guardada en una memoria RAM se puede reeprogramar o reemplazar. Su función es la de almcenar instrucciones o datos, para evitar que estos tengan que pasar nuevamente por el procesador. \\
+
+\subsection{Como se gestiona la memoria en un computador.}
+Para entender como funciona una memoria, es importante usar la siguiente analogía: Hay que imaginar que un trabajador de realizar una serie de tareas contables. El cajon donde guardan todos los documentos podria ser el disco duro; los documentos son equivalentes a los datos y a la información a procesar; la mesa de trabajo o el escritorio donde se apilan dichos archivos sería el equivalente a la memoria donde se almacena temporalmente la información que se encuentra en procesamiento; mientras la persona seria el microprocesador que realiza diferentes tareas.
+\begin{itemize}
+    \item Primero se sacan del cajón (disco duro) los documentos administrativos y se les lleva a un escritorio (memoria) donde se apilan para poder trabajar.
+    \item Se toma el primer archivo de la pila para que el empleado (microprocesador) realice los calculos necesarios, así como otras tareas y finalmente se ingresen las modificaciones y los resultados de datos procesados en dicho documento.
+    \item Se regresa dicho documento procesado a otra parte del escritorio (memoria) donde se colocarán los documentos procesados.
+    \item Luego se toma otro documento no procesados y se repiten los dos pasos anteriores.Eso se reitera una y otra vez hasta que todos los documentos hayan sido procesados. 
+    \item Finalmente cuando se terminan de procesar todos los documentos, los cuales se encuentran apilados en la parte del escritorio (memoria) de documentos ya procesados, se toman y se vuelven a guardar en el cajón (disco duro) de almacenamiento de archivos. 
+  \end{itemize}  
+    Es importante recalcar que el archivo nunca se elimina del disco duro, simplemente se crea una copia en este, y despues es reemplazado por lo que haya en la memoria. \cite{taller}
+
+\subsection{¿Que hace que una memoria sea mas rápida que otra? ¿Por qué esto es importante?. }
 
 
-\begin{lstlisting}
-#include <stdio.h>
-#define N 10
-/* Block
- * comment */
 
-int main()
-{
-    int i;
 
-    // Line comment.
-    puts("Hello world!");
-    
-    for (i = 0; i < N; i++)
-    {
-        puts("LaTeX is also great for programmers!");
-    }
 
-    return 0;
-}
-\end{lstlisting}
 
-A continuación se presenta el logo de C++ Figura (\ref{fig:cpplogo})
 
-\begin{figure}[h]
-\includegraphics[width=4cm]{cpplogo.png}
-\centering
-\caption{Logo de C++}
-\label{fig:cpplogo}
-\end{figure}
 
-En la sección de teoremas (\ref{contenido})
+
+
+
+
 
 \section{Conclusión} \label{conclulsion}
 
